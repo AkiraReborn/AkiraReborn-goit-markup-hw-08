@@ -1,0 +1,125 @@
+.our-team-section {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  
+    background-color: var(--secondary-bg-color);
+
+    @media screen and (min-width:1200px) {
+      padding-bottom: 94px;
+    }
+  }
+  
+  .our-team-list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+    @media screen and(min-width:480px) {
+      
+    }
+
+    @media screen and(min-width:768px) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -30px;
+    }
+
+    @media screen and(min-width:1200px) {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  }
+
+  .our-team-list__member {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+      0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+
+
+
+    & h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--titel-link-color);
+      
+        margin: 0px;
+        margin-bottom: 10px;
+      }
+
+    & p {
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+      
+        margin: 0px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+
+    @media screen and(min-width:480px) {
+      
+    }
+    
+    @media screen and(min-width:768px) {
+      width: calc((100% - 2 * 60px) / 2);
+      margin: 30px;
+    }
+
+
+  }
+    
+  .member-photo{
+
+    @media screen and (min-width:480px) {
+      height: 460px;
+    }
+
+    @media screen and (min-width:768px) {
+      width: 354px;
+      height: 374px;
+    }
+
+    @media screen and (min-width:1200px) {
+      width: 270px;
+      height: 260px;
+      
+    }
+
+  }
+    
+  .member-data {
+    padding: 30px 0px 30px;
+    background-color: var(--address-color);
+  }
+
+  .our-team-name {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--titel-link-color);
+  
+    margin: 0px auto 30px;
+
+    @media screen and (min-width:480px) {
+      
+    }
+
+    @media screen and (min-width:768px) {
+      
+    }
+
+    @media screen and (min-width:1200px) {
+      margin: 0px auto 50px;
+    }
+  }
+  
+  

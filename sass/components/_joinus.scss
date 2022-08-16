@@ -1,0 +1,31 @@
+
+.join-us {
+    margin-top: 60px;
+    padding: 0px 137px;
+    text-align: center;
+
+    @media screen and (min-width:768px) {
+      margin-top: 0px;
+      margin-left: 165px;
+      padding: 0px;
+    }
+
+    @media screen and (min-width:1200px) {
+      padding: 0px;
+      margin-left: 70px;
+    }
+
+
+    & h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: var(--address-color);
+      
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+
+  }
+  

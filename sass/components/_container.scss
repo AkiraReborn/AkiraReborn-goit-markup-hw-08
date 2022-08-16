@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width: 480px) {
+      
+    }
+
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+    }
+
+    & h1{
+        padding-bottom: 30px;
+    }
+
+    & .portfolio-button {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+    }
+
+    header > & {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    footer & {
+        display: flex;
+        flex-direction: column;
+      }
+
+    @media screen and (min-width:480px) {
+        max-width: 480px;
+        
+    }
+
+    @media screen and (min-width:768px) {
+        max-width: 798px;
+        
+    }
+
+    @media screen and (min-width:1200px) {
+        max-width: 1200px;
+    }
+    
+  }
+
+
